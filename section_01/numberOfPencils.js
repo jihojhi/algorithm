@@ -6,4 +6,4 @@ function solution(a){
 
     return answer;
 }
-console.log(solution(25));
+console.log(solution(30));
