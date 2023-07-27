@@ -15,7 +15,7 @@ function solution(arr){
         return comp1 - comp2; 
     });
     min = oddNumberArr[0];
-    
+
     // 방법 2 : 전개 연산자 사용
     min = Math.min(...oddNumberArr);
     min = Math.min.apply(null, oddNumberArr);
@@ -25,4 +25,4 @@ function solution(arr){
     return answer;
 }
 
-console.log(solution([12, 77, 38, 41, 53, 92, 85]));
+console.log(solution([13, 77, 38, 41, 53, 92, 85]));
