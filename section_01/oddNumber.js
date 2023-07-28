@@ -25,4 +25,4 @@ function solution(arr){
     return answer;
 }
 
-console.log(solution([13, 77, 38, 41, 53, 92, 85]));
+console.log(solution([14, 78, 38, 41, 53, 92, 85]));
